@@ -1,0 +1,802 @@
+00:44:00	Cleyton Carneiro:	Caros, bom dia! Vocês sabem o tempo de duração da aula? Apenas para meu ajuste logístico. Grato!
+00:44:20	Rodrigo Tchalski:	Ontem informaram que seria em torno de 2 horas.
+00:44:32	Cleyton Carneiro:	Obrigado!
+00:44:44	Iuli Hardt:	vai ficar gravado para assisitr depois
+00:44:49	Priscila:	vi em algum lugar que ia ser 3
+00:44:54	iPhone de Jhonata:	as aulas serão sempre no sábado pela manhã ?
+00:44:55	Humberto Bezerra de Meneses Júnior:	Bom dia, previsão de 9h às 11h.
+00:45:06	Augusto Gomes:	haverá um ambiente remoto da usp com o jupyter?
+00:45:11	Reinaldo Lepsch Neto:	Está confirmado que são 2 horas
+00:46:52	Edesio Alcobaça:	Oi pessoal, a aula vai até às 11h e será salva online também :)
+00:46:53	Alan Angeluci:	jupyter é uma ferramenta de autoria?
+00:47:34	Augusto Gomes:	jupyter é um ambiente de programação
+00:47:38	Francisco Martellini:	Tem o ambiente remoto do Google Colabque é uma implementação do Jupyter da Google, já programei em Python nele
+00:48:10	Augusto Gomes:	também ja usei o colab... eh bacana
+00:48:27	Andhros Guimarães Silva:	o Deepnote também é muito bom
+00:48:53	Rodrigo Tchalski:	O Google Colab é legal que tem opção de GPU...
+00:48:56	iPhone de Jhonata:	Deepnote é online ?
+00:49:00	Victor Marques:	O Kaggle também é ótimo!
+00:49:29	Alan Angeluci:	legal, já notei que Jupyter é um dos ambientes de programação possíveis :)
+00:49:34	Adriano Tito:	Galera, o Jupyter Lab é uma versão melhor do Jupyter notebook. Você consegue estruturar e navegar pelas pastas.
+00:49:34	Andhros Guimarães Silva:	aonde eu trabalho usamos deepnote, é online...
+00:50:12	handrade:	Eu uso o Python Jupyter dentro do VS code …. algum problema porque trabalho com a plataforma integrada com nuvem?
+00:50:27	Adriano Tito:	É uma IDE melhor de se trabalhar para estruturar os projetos.
+00:50:28	Pedro Rodrigues:	não, funciona muito bem
+00:50:44	Andhros Guimarães Silva:	que tem email alumni consegue usar também o Pycharm pro que é fantástico
+00:51:01	Hederson:	o collab é interessante, pois tem a opção de se utilizar GPU.
+00:51:08	Adriano Tito:	O pycharma é uma IDE muito boa também, mas bem pesado.
+00:51:09	Pedro Rodrigues:	se não quiser instalar nada no seu OS então, docker + vscode é melhor ainda
+00:51:55	Adriano Tito:	O Colab é interessante também, mas se for usar GPU não versão Free você concorre pela GPU com outros usuários.
+00:52:00	Gustavo Moura:	recomendo bastante usar o jupyter dentro do VScode
+existem pacotes que te ajudam a programar mais fácil ou que deixam mais visual
+além de ter a gestão dos arquivos como o jupyter lab
+00:53:27	Iuli Hardt:	grupo no WhatsApp MBA DS USP 2021:https://chat.whatsapp.com/LZBlh4ihyX26ZWDAopZdSy
+00:53:38	Adriano Tito:	O colab também tem o problema de você sempre ter que instalar os pacotes quando você iniciar o notebook. Pacotes que as vezes não são tão frequentes e otimizados pelo google.
+00:53:54	leopetribu:	Pro pessoal que é familiarizado com o Matlab (geralmente quem é de engenharia), uma forma muito legal de fazer a transição pro python é usar a IDE Spyder
+00:53:59	Francisco Martellini:	Eu já usei muito o Google Colab (hoje eu uso o Jupyter instalado via Anaconda) mas se alguém precisar mandem mensagens nos grupos que tento dar uma ajuda
+00:54:54	Hederson:	Quem usa o Jupyter Lab, sabe dizer se tem opção de debug lá?
+00:55:13	Otávio Torres:	existe sim, mas é necessária a instalação do Python 3.9
+00:55:22	Adriano Tito:	O Jupyter lab possui sim
+00:55:32	Hederson:	maravilha!
+00:55:47	Adriano Tito:	Eu recomendo não utilizar as ultimas versões de python porque nem todas as libs são otimizados para elas.
+00:56:18	Hederson:	A 3.9 saiu em dezembro agora. É melhor usar a 3.8 por enquanto.
+00:56:30	Anderson Cunha:	R->python :-)
+00:56:37	Adriano Tito:	Hoje eu uso as versões de 3.6 do python porque tenho certeza que o tensorflow e o torch rodam muito bem
+00:56:47	Adriano Tito:	scikit learn também
+00:56:51	Augusto Gomes:	3.9 tem mt pau de lib ajnda
+00:57:03	Adriano Tito:	Concordo
+00:57:07	Otávio Torres:	exato
+00:57:07	Hederson:	Eu uso a 3.7, ela está bem madura também.
+00:57:18	Adriano Tito:	A 3.7 também está bem legal
+00:57:28	Priscila:	Pra acessar o jupyter tem que baixar o anaconda antes? Ou não é interligado?
+00:57:34	Adriano Tito:	Mas no 3.7 eu tive problemas para rodar o torch 1.3
+00:57:36	daniely:	tbm uso a 3.7, por questões do torch e do tf
+00:57:36	Pedro Rodrigues:	pois é, 3.5~3.7 são bem estáveis. 3.8 pra cima de vez em quando dá dor de cabeça
+00:58:02	Augusto Gomes:	recomendo 3.7
+00:58:13	Francisco Martellini:	Priscila você precisa instalar o Anaconda para usar o Jupyter, o Anaconda instala ele
+00:58:17	Edesio Alcobaça:	Oi pessoal. Gostaria apenas de dar uma dica sobre o Colab. Ano passado alguns alunos acabaram esquecendo de montar a máquina virtual e perderam seus códigos :/   Usem o Colab mas lembrem-se de montar a máquina virtual antes :)
+00:58:46	Priscila:	ahh certo. obrigada Francisco
+00:59:02	handrade:	latex super …..
+00:59:16	Francisco Martellini:	latex = medo :P
+00:59:40	Tainá Aguilar:	Priscila, na verdade existem outras maneiras de instalar o Jupyter, mas o Anaconda é a mais simples
+01:00:00	Otávio Torres:	documentação referente ao debugger do jupyter lab: https://github.com/jupyterlab/debugger
+01:00:02	Adriano Tito:	Eu nunca montei maquinas virtuais no colab. Se você subir o seu note salvando no google drive, você não perde os seus códigos. Eu só não lembro se ele salva de forma automatica
+01:00:19	Priscila:	Eu uso R, já vi que tenho opção de criar um jupyter por lá, mas nunca tentei.. é isso?
+01:00:23	daniely:	Priscila, vc pode tbm instalar o pacote do jupyter no python puro e rodar ele direto. 
+01:00:24	Tainá Aguilar:	Os meus sempre salvavam automativamente no Colab
+01:00:46	Francisco Martellini:	Ele salva automaticamente Adriano, mas só o código. Ele não mantêm os arquivos externos
+01:00:50	Adriano Tito:	E pessoal quando for instalar as coisas, não abram o aplicativo do anaconda, mesmo no Windows. É pesado e demora demais. façam tudo pelo terminal do anaconda.
+01:01:07	Mauricio Eloy:	Priscila o ambiente Jupyter suporta R também, dá pra usar R, Python Julia...
+01:01:15	Adriano Tito:	Franciso, a eu concordo!
+01:01:24	Tainá Aguilar:	O jupyter permite o R também, mas o jupyter é o equivalente a um R-Studio, tipo é uma interface para você mexer com a linguagem
+01:01:55	Juliano Boldrin:	Priscila, o notebook padrão do RStudio não é o Jupyter. dá pra usar o jupyter também, mas aí é fora do RStudio
+01:02:07	Adriano Tito:	É tem como usar também as funções mágicas do R com python no mesmo notebook, mas tem como abrir um kernel do R
+01:03:11	Adriano Tito:	Eu gosto muito do RSTUDIO é muito completo e se for trabalhar com R, eu indico muito mais do que você trabalhar com o notebook
+01:03:12	Priscila:	obrigada pessoal
+01:03:13	Francisco Martellini:	Fui professor de física por uns 10 anos, sempre falava para meus alunos, não existe pergunta idiota :)
+01:03:32	Ronny:	Alguém programa phyton usando Visual Studio?
+01:03:43	handrade:	eu programo
+01:03:44	Roberto Souza Junior:	A IDE do PYthon é o Jupyter, A IDE do Linguagem R é RStudio
+01:04:09	Adriano Tito:	Tem muitas IDEs para python, mas é isso ae roberto.
+01:04:21	Ronny:	eu programo Dot Net, então tava pensando usar o VS
+01:04:23	Carlos César:	Bom dia Pessoal, não consegui encontrar o link do moodle com todos os arquivos. Alguem poderia passar?
+01:04:37	Roberto Souza Junior:	Sim, Obrigado Carlos
+01:04:56	Juliano Boldrin:	O curioso é que da pra usar Jupyter para R e até mesmo o RStudio para Python
+01:05:10	Adriano Tito:	Mas o Jupyter Notebook não é uma IDE que você trabalha somente com o Python.
+01:05:22	Priscila:	R studio é perfeito <3 hahaha
+01:05:27	Luis Ramalho:	Pessoal, o material da aula, esse que o professor está mostrando, está disponível onde?
+01:05:38	handrade:	eu uso o VS code porque trabalho com fullstack e dá para fazer tudo por lá …. ambientes integrados inclusive com nuvem, tensorflow, Docker … etc
+01:05:40	Priscila:	acho que vai ficar disponível depois, luiz
+01:05:49	Tainá Aguilar:	eu tava usando vscode junto com o pipenv, pra criar os ambientes. Mas assim, foi so porque um amigo recomendou fazer assim kkk
+01:06:01	Adriano Tito:	RSTUDIO é top mesmo. Análise de dados na linguagem R é lindo de se usar.
+01:06:18	Martinho Hoffman:	Também não entendo
+01:06:45	Priscila:	Demais, amo! <3 R e Rstudio
+01:06:52	Carol Oliveira:	o áudio do Herbert está bem ruim pra mim :(
+01:07:00	Priscila:	pra mim tmabém
+01:07:04	Valdir Luiz Dubiela:	estourando...
+01:07:06	Iuli Hardt:	escreve a pergunta aqui HEBERT
+01:07:07	Mauricio Eloy:	pra mim tbm
+01:07:08	Adriano Tito:	Tainá o pipenv se eu não me engano você precisa criar as variáveis de ambiente na máquina né? O Legal de você fazer pelo Anaconda é que ele faz todo esse processo do ambiente sozinho e bem organizado
+01:07:11	Juliano Boldrin:	tá bem ruim mesmo, não é melhor digitar aqui a dúvida?
+01:07:12	Alan Angeluci:	ele pode digitar a pergunta aqui
+01:07:12	Pedro Rodrigues:	escreve no chat Herbert
+01:07:18	Pedro Rodrigues:	Hebert*
+01:07:19	Sandro:	coloca no chat
+01:07:19	Alexandre Scarambone:	não estou ouvindo
+01:07:39	Fer Marreta:	Pessoal, o material desta aula está na disciplina de Programação para Ciências de Dados
+01:07:47	Priscila Costa:	Herbert, sua internet está ruim, fala no chat por favor.
+01:07:53	Fer Marreta:	https://cursosextensao.usp.br/course/view.php?id=2195
+01:08:29	Gabriel Penteado:	Onde fica o ícone da mãozinha? Não estou achando..
+01:08:35	Hebert Ramos:	Nonato, minha dúvida e sem as solução desenvolvidas são uma intergração entre células de código e células makdown?
+01:08:56	Alan Angeluci:	a mãozinha está em "reactions"
+01:08:59	Ana Figueiroa:	Em rea
+01:09:07	Ana Figueiroa:	reactions*
+01:09:07	Gabriel Penteado:	Ah sim! Obrigado!
+01:09:36	Marco Domingues:	pls alguém sabe onde esta o link do moodle com todos os arquivos?
+01:09:40	Luis Ramalho:	Obrigado Fer MArreta!
+01:09:42	Priscila:	https://cursosextensao.usp.br/course/view.php?id=2195
+01:09:55	Tainá Aguilar:	Adriano, eu tinha um amigo meio 'radical' que falava que o anaconda era uma gambiarra pra rodar o jupyter no windows kkk ai por isso que passei a usar tudo no vscode, rodar o jupyter separado do anaconda
+01:09:57	Valdir Luiz Dubiela:	temos que combinar o símbolo...
+01:10:00	Daniela Lacerda:	Na realidade, é em Participantes, na opção Raise hand.
+01:10:04	Francisco Martellini:	Onde fica o Reactions?
+01:10:21	Valdir Luiz Dubiela:	a palmo ou positivo ... levantar a mão
+01:10:25	Alan Angeluci:	barra inferior da tela
+01:10:33	Iuli Hardt:	RAISE HAND
+01:10:34	Anderson Cunha:	na versão web, no chat, tem um botão "levantar mão"
+01:10:38	nicolas.costa:	A opção de raise hand é em participantes.
+01:10:41	Priscila:	Vai em participantes e aperta em “levantar a Mao”
+01:10:57	Diego Araujo:	A ultima versão da suite Anaconda é a versão 3.8 do Python, no material menciona a 3.7. Poderemos ter algum problema de compatibilidade para executar os exercicos?
+01:11:18	Rodrigo Tchalski:	Eu acho que não.
+01:11:21	Juliano Boldrin:	Boa, tbm não estava achando a opção de levantar a mão
+01:11:23	Francisco Martellini:	Ha! Achei, é no Participants, na janela que abre tem o Raise Hand, obrigado Priscila!
+01:11:26	Iuli Hardt:	3.7 e 3.8 nativo acredito que nao, o 3.9 pode dar problemas
+01:11:34	Gustavo Moura:	provavelmente não
+do 3.7 pro 3.8 não tem muita coisa que gera esse conflito
+o problema maior é do 2 pro 3
+01:11:46	Ronny:	Fica no rodapé em Reactions
+01:11:47	Iuli Hardt:	as libs que vamos usar sao bem usadas e ja devem estar no 3.7 e 8
+01:12:57	Altieres Schincariol:	eita
+01:13:00	Altieres Schincariol:	igual javascript
+01:13:03	Marcley:	Olá pessoal! Alguém está com problema para autenticar em https://cursosextensao.usp.br/course/view.php?id=2195?
+01:14:01	Rodrigo Tchalski:	Não esqueça que não é o login direto.
+01:14:01	Fer Marreta:	Pessoal, primeiro façam login no sistema usando numero USP e senha única e depois acessem o link
+01:14:17	Rodrigo Tchalski:	Tem que clicar em cima, pra autenticar com o login USP
+01:14:57	Adriano Tito:	Tainá, kkkkkkkkkkkkkkk. O seu amigo não deixa de estar certo kkk. É a mesma coisa quando você utiliza um Docker que é um compartimento ou container do próprio Linux dentro do Windows. É uma gambiarra total, mas é usual e infelizmente ainda hoje a maior parte das pessoas usam Windows como so
+01:15:26	Rafael Gomes:	eu estou Marcley, só autentica para mim quando vou na opção para cadastrar novamente
+01:15:44	Marcley:	Boa Rodrigo! Consegui aqui.
+01:15:49	Rodrigo Tchalski:	Legal!
+01:16:00	Rodrigo Tchalski:	Eu me bati com essa ontem... kkkk
+01:16:02	Ronny:	Pra logar no espaço do curso tem que clicar em "ACESSAR VIA Senha USP"
+01:16:55	Ronaldo Cohin - Jade Autism:	O site da Usp caiu? Não to conseguindo acessar o https://cursosextensao.usp.br/my/
+01:17:09	Rodrigo Tchalski:	Normal aqui pra mim
+01:17:11	Tainá Aguilar:	Eu tenho que admitir que minha qualidade de vida na programação melhorou muito quando passei do windows para o Linux, tudo fica muito mais fácil. Primeiro eu tentei usar aquele WSL, que já era bem mais facil do que usar direto no windows, mas no final acabei indo pro Linux mesmo.
+01:17:52	CeMEAI:	@Ronaldo, o site está no ar, tire o /my do final da sua URL.
+01:19:05	Francisco Martellini:	Linux é vida
+01:20:41	Adriano Tito:	Sistema Unix é nativo para programação e deixa você livre para fazer as coisas em linha de comando. A minha programação melhorou muito no Linux também. Quando você trabalha com visão computacional, parece que tudo é bem mais otimizado quando você está no Linux.
+01:21:25	Sandro:	pessoal qual a melhor distribuição Linux para programação? tem alguma ou pode ser qualquer Linux
+01:21:44	Adriano Tito:	Eu usei muito o ubunto 18.04 lts
+01:21:54	Tainá Aguilar:	eu também
+01:22:02	Adriano Tito:	Agora se eu não me engano já existe uma versão lts d0 20
+01:22:08	Andhros Guimarães Silva:	eu tenho o Manjaro Linux e é fantástico, baseado em arch
+01:22:13	Tainá Aguilar:	sim, já ta na 20
+01:22:15	Andhros Guimarães Silva:	melhor distro que já usei
+01:22:22	Francisco Martellini:	Ubuntu também, mas já usei variante dele que é o Pepeermint Linux, que é legal para computadores antigos
+01:23:36	Adriano Tito:	Tem muitas variações do Linux que são ótimas, eu só não recomendo você utilizar o RedHat se for no nível básico.
+01:24:36	Adriano Tito:	O legal do Ubunto é que ele é uma versão de tela amigável, mas todo em cima do debian
+01:25:29	Adriano Tito:	*Ubuntu
+01:25:31	Tainá Aguilar:	de curiosidade, onde vocês aprenderam essas coisas? usando mesmo?porque eu quebrei muito a cabeça pra aprender a usar Linux, entender quando dava problema, mas sinto falta de ter um lugar pra ler e aprender a usar, é sempre google + msg de erro
+01:25:39	Luis Ramalho:	O print pro W ficou errado ali... type(w)
+01:26:16	Adriano Tito:	Eu usei várias distribuições na empresa que eu trabalhava e fui aprendendo em cursos e batendo a cabeça.
+01:26:19	Reinaldo Lepsch Neto:	Eu uso Ubuntu num notebook de 2010, que nao conseguiria funcionar com windows mais recente
+01:26:31	Francisco Martellini:	Aprendi mexendo, Tainá, faz mais de 10 anos que uso o Linux como SO de todos os computadores que tive
+01:26:43	Adriano Tito:	Tem um curso muito bom na udemy que é para a certificação do Linux que eu usei muito, eu passo o link aqui
+01:26:55	Tainá Aguilar:	O lado bem é que então so faltam 9 anos pra mim kkkkkkkkkkk
+01:27:02	Tainá Aguilar:	Manda sim Adriano :)
+01:27:09	Felipe Almeida:	João… utiliza o PEP8, veja…
+01:27:10	Felipe Almeida:	https://www.python.org/dev/peps/pep-0008/
+01:27:23	Adriano Tito:	O Linux é bem mais leve né Reinaldo. Se você usar o Debian, será mais rápido ainda.
+01:28:18	Andre Marcos Perez:	isso, o PEP8 é o guia oficial de estilo de programação em Python, qualquer dúvida é só recorrer ao padrão!
+01:28:41	Pedro Rodrigues:	minha primeira leitura sobre Linux foi o Guia Foca, a uns 15 anos atrás 🤣
+01:29:28	Adriano Tito:	https://www.udemy.com/course/curso-online-certificacao-linux-lpic1-comptia/
+01:29:36	Francisco Martellini:	Mas o Ubuntu é bem amigável para novos usuários, não deve demorar muito para você se acostumar. Eu sou sem noção e colocava distribuições chatas, tipo o Slackware só para ver o que acontecia, e cresci desmontando computadores (meu primeiro SO foi o DOS 6.22, então linha de comando e erros bisonhos fizeram parte da minha vida) :P
+01:30:06	Francisco Martellini:	Guia Foca, quem nunca!
+01:30:43	Sandro Saorin da Silva:	Todos os sábados vão ter aulas ao vivo ou apenas essa que é inaugural?
+01:31:03	Roberto Souza Junior:	Fantástico isso: https://www.python.org/dev/peps/pep-0008/
+01:31:13	Roberto Souza Junior:	Obrigado pelo Link!!!
+01:31:41	CeMEAI:	Olá Sandro, as aulas ao vivo são eventuais, os plantões extra também serão sábados.
+01:31:59	Anderson Cunha:	Pessoal, são mais de 200 pessoas. Como conduta seria legal a gente interromper somente quando necessário.
+01:32:26	Juliano Boldrin:	concordo!!
+01:32:34	Francisco Martellini:	sim!
+01:32:43	Pedro Carrozza:	Perfeito Anderson, concordo
+01:32:45	antonini:	Apoiado
+01:33:11	Adriano Tito:	Apoiado
+01:33:24	daniely:	Também concordo. 
+01:33:45	gleidson.santos:	Concordo
+01:33:55	M34CDUSP:	Concordo
+01:34:17	Claudia Coleoni:	Bem legal o link que compartilharam do style guide do Python! Continuem compartilhando aqui esses recursos, bem úteis para quem está começando :)
+01:34:36	Flavio Correa:	Concordo!
+01:34:41	João Luiz Pacher:	também gostei
+01:34:49	Andre Marcos Perez:	Compartilharemos!
+01:35:10	Francisco Martellini:	Seria legal criar um tópico no forum do MBA de material adicioal e colocar esses links, vou copiar aqui, depois faço isso e mando nos grupos também
+01:35:13	gleidson.santos:	Inclusive, seria interessante que as duvidas fossem colocadas no chat, e o professor ir olhando e sanando em momento apropriado
+01:35:58	Victor Marques:	Pessoal, criei uma postagem no fórum de discussão para compartilhar com vocês um Python cheatsheet! Ajuda muito! Vou compartilhar aqui também!
+01:36:00	Victor Marques:	https://1drv.ms/b/s!Aqua3-KVmx_o_XO7G7SBsJvJ6NF6?e=ux57Ij
+01:36:00	noelma:	Bem legal mesmo
+01:36:06	Flavio Correa:	Falando em material de apoio depois gostaria de saber se tem alguma dica sobre o acesso ao conteudo da bibliografia. Nunca fui aluno USP entao ainda nao conheco todas as possibilidades.
+01:36:33	Francisco Martellini:	A maior parte dá para pegar via vpn nas bases que a USP assina
+01:36:51	Ivan Garducci:	Não entendi o sinal de " |  "da sequência anterior
+01:37:01	daniely:	Concordo Gleidson, até porque algumas perguntas podem ser respondidas pelo proprio pessoal aqui 
+01:37:19	Roberto Souza Junior:	Primeira `Postagem. Arrebentou...muito bom! Python For Data ScienceCheat Sheet
+01:37:20	Juliano Boldrin:	| = booleano "or" se não me engano
+01:37:46	Ivan Garducci:	Tks
+01:37:49	Juliano Boldrin:	aliás, booleano não, condicional
+01:38:43	Flavio Correa:	Bem legal o cheat sheet!
+01:39:18	Victor Marques:	Esse cheatsheet é uma mão na roda!! É excelente!
+01:39:27	noelma:	É legal mesmo
+01:39:53	Fer Marreta:	@Flavio Correia podemos falar sobre isso depois da aula, mas com o email USP e o acesso VPN vocês conseguem utilizar bastante recursos, como as bases de dados de artigos científicos e as bibliotecas  
+01:40:21	Flavio Correa:	Obrigado @Fer
+01:40:40	Flavio Correa:	Vou testar depois a VPN e ver os acesso, se tiver duvida aviso voces..
+01:41:31	Fer Marreta:	esta é a página da Biblioteca do ICMC https://www.icmc.usp.br/institucional/estrutura-administrativa/biblioteca
+01:41:44	Fer Marreta:	alguns acessos já estão descritos na página
+01:42:11	Francisco Martellini:	Eu tenho uma dúvida básica que eu percebi agora: no vídeo de apresentação do Moodle, vocês falam em aulas pares e ímpares. Quais são as pares e as ímpares?
+01:43:47	CeMEAI:	@Francisco, é que os plantões de uma disciplina será de 2as e 4as e da outra 3as e 5as. Agora vocês estão fazendo as disciplinas 1 e 2.
+01:44:23	Francisco Martellini:	Entendi, obrigado!
+01:44:29	CeMEAI:	Os plantões de PCD serão 2as e 4as e de ICD 3as e 5as
+01:44:32	Edesio Alcobaça:	Pessoal, segue um link bem legal para aprender python (no estilo cheat sheet). Tem um sumário de quase todas as coisas disponíveis: https://www.pythoncheatsheet.org/
+01:44:44	daniely:	@CeMEAI é necessário assistir todos os vídeos? Ou a presença será contabilizada somente pela lista de exercicio? 
+01:45:37	Jhonata Emerick Ramos:	@CeMEAI qual o horário das monitorias?
+01:45:44	CeMEAI:	@Daniely, a presença é somente o envio das avaliações semanais
+01:45:54	daniely:	obrigada
+01:46:40	CeMEAI:	@Jhonata, 20:00 - 21:30, algumas vezes se alonga dependendo do ânimo dos alunos e do nosso pessoal :-)
+01:46:55	nicolas.costa:	Priscila, no caso se vc fizer
+01:47:00	nicolas.costa:	x=4
+01:47:05	nicolas.costa:	Y=2
+01:47:09	nicolas.costa:	x,Y
+01:47:14	nicolas.costa:	Ele ira pintar ambos
+01:47:20	nicolas.costa:	printar*
+01:47:42	Flavio Correa:	Como funcionam os plantões? São os alunos trazendo duvidas sobre o conteudo? Ou tem conteudo dado pelos professores adicional as aulas gravadas?
+01:47:52	Tainá Aguilar:	mas ai é porque ele criar um tupla, continuam sendo um elementos só
+01:48:01	Enzo Yamamura:	em outros editores de código só colocando x não retorna pra tela
+01:48:11	Jhonata Emerick Ramos:	@CeMEAI as aulas serão ao vivo assim, ou ficarão gravadas para assistirmos somente?
+01:48:17	Gustavo Moura:	o display faz um print mais visual de tabelas
+01:48:32	Felipe Almeida:	Priscila, isso (de imprimir o valor sem usar a função “print”) só funciona porque estamos utilizando o Jupyter… se você fizer um programa em Python e tentar executar não vai funcionar se você não utilizar o “print”
+01:48:42	Enzo Yamamura:	exato
+01:49:01	CeMEAI:	@Flavio, a prioridade é dada para sanar dúvidas, mas quando sobra tempo, apresentamos mais coisas, que não são cobradas em avaliações
+01:49:07	Tainá Aguilar:	E o elemento tem que ser a ultima coisa na sua celula, se não, não aparece
+01:49:13	Mathias:	Exato
+01:49:14	Andre Marcos Perez:	oi, o display é nativo do ipython, o software por trás do notebook
+01:49:29	Mathias:	Ele é nativo do ipython e não do python:
+
+
+Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a = 1
+>>> display(a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'display' is not defined
+>>> print(a)
+1
+>>>
+01:49:46	Andre Marcos Perez:	ou seja, não é nativo do python
+01:49:49	Ronny:	Levantar a mão fica no rodapé, clica no ícone Reactions
+01:49:52	Andre Marcos Perez:	https://ipython.org/ipython-doc/stable/api/generated/IPython.display.html
+01:49:57	Jefferson Martins:	pessoal, o ícone para levantar a mão está em "reaction" na parte inferior da tela
+01:50:10	Mathias:	Ipython é o framework de interface gráfica web utilizado pelo Jupyther e por outras IDE's do tipo tais como colab, cloudera workbench, anaconda e afins
+01:50:18	Mathias:	Isso Andre..
+01:50:42	CeMEAI:	@Jhonata, as aulas ao vivo são eventuais, a grande maioria está pré gravada e editada. Mas todas ficam disponíveis para vocês assistiram quando quiserem.
+01:50:47	noelma:	No meu caso o “ Raise hand” aparece em participants
+01:50:53	Claudia Coleoni:	em alguns casos, o levantar a mão pode estar abaixo da lista de participantes...
+01:50:59	Claudia Coleoni:	exato
+01:51:02	Roberto Souza Junior:	Levantar a MAO esta dentro da Lista de Participantes(Rodapé do Zoom)!!
+01:51:07	noelma:	Exato,  Claudia
+01:51:28	Edesio Alcobaça:	Olá Flávio Correia. Nos plantões vamos tirar dúvidas das aulas. Eventualmente fazer exercícios práticos também :)
+01:51:55	Gustavo Moura:	a boa prática mais comum de formatação de um código pra ficar fácil outras pessoas lerem, é o pep8, se jogar no google, a primeira página é o guide
+01:52:05	Jefferson Martins:	o python tem algum tipo de dado específico para trabalhar com datas ?
+01:52:25	Roberto Souza Junior:	Baixei este Livro abaixo + as Aulas, dá para seguir: Python forData Analysis
+01:52:51	Roberto Souza Junior:	Wes McKinney
+01:53:14	noelma:	Para quem é iniciante, tem curso super bom de Python na DataScienceAcademy.
+01:53:22	Jonathas Rocha:	O quinto elemento seria o espaço ou o "é"?
+01:53:36	daniely:	@Jefferson tem o datetime
+01:54:23	Joao Vicente Campos:	Não encontro no meu Zoom. Obrigado
+01:54:23	Tainá Aguilar:	Só que o datetime tem que importar
+01:54:30	Francisco Martellini:	Tem também o Introdução à Ciência da Computação com Python da USP+Coursera que é muito bom. Aprendi Python com ele:
+01:54:32	Francisco Martellini:	https://pt.coursera.org/learn/ciencia-computacao-python-conceitos
+01:54:44	Tainá Aguilar:	João, clica em cima dos participantes, o meu so aparece quando eu clico
+01:54:52	Francisco Martellini:	Parte 2: https://pt.coursera.org/learn/ciencia-computacao-python-conceitos-2
+01:54:56	noelma:	Vou dar uma olhada Francisco, tks
+01:55:27	Silvio Luiz Santos de Jesus:	https://www.python.org/dev/peps/pep-0008/ olha isso aqui @joao olha isso aqui
+01:56:08	Edesio Alcobaça:	Para os curiosos, segue uma discussão sobre a diferença entre display e print: https://stackoverflow.com/questions/956969/difference-between-print-and-display#:~:text=display%20is%20similar%20to%20write,))%20would%20print%20(a%20b%20c).
+01:56:13	Tainá Aguilar:	Clica em cima de participantes
+01:56:21	Priscila:	gente, o elemento zero é o primeiro??
+01:56:29	noelma:	Sim, Priscila
+01:56:31	Daniela Brasil:	sim, priscila
+01:56:32	Tainá Aguilar:	sim, não é igual R que começa no 1
+01:56:34	Priscila:	jesus
+01:56:37	noelma:	No Python é sempre 0
+01:56:38	Priscila:	Porqueeee hahahaha
+01:56:38	Enzo Yamamura:	para aprender na prática tb é interessante o HackerRank e CodeWars, pra quem não conhece
+01:56:49	Joao Vicente Campos:	@Tainá. Muito obrigado!
+01:56:58	Tainá Aguilar:	Deu certo @João ?
+01:57:46	Joao Vicente Campos:	@Tainá, Sim! Agora vc ajudou a criar um monstor….vou ficar com a mãolevantada o tempo todo :) 
+01:58:00	Silvio Luiz Santos de Jesus:	kkkkk
+01:58:02	Tainá Aguilar:	KKKKKKKKK
+01:58:08	Edesio Alcobaça:	hahaha
+01:58:16	Joao Vicente Campos:	As duas mãos na verdade!
+01:58:21	Priscila:	gente, no R tem o c(x,2), que daí acrescento o 2 ao vetor x. O python nao dá né?
+01:58:26	Altieres Schincariol:	JSON do python hahaha
+01:58:27	Silvio Luiz Santos de Jesus:	“put your hands in the air”
+01:58:45	Otávio Torres:	@Priscila, em Python vc usa append
+01:59:05	Otávio Torres:	x.append(2)
+01:59:19	Priscila:	Obrigada, pessoal! Bem diferente né
+01:59:25	Otávio Torres:	é exatamente o mesmo resultado
+02:00:08	Daniela Brasil:	sim ... eu vim do MATLAB e de vez em quando me atrapalho
+02:00:28	Tainá Aguilar:	Eu admito que quando eu passei do R pro python eu também estranhei muito no inicio, mas depois que você acostuma, você vai gostar bastante
+02:00:34	Edesio Alcobaça:	Pessoal, caso vocês fiquem com dúvidas e não consigam tirar ainda na aula de hoje com o professor, lembrem-se que podem enviar mensagens para o professor e para o time de apoio pelo site do curso :)
+02:01:11	Tainá Aguilar:	Recomendo buscar mais sobre o conceito de programação orientada a objetos, me ajudou muito a entender algumas diferenças entre as duas
+02:01:13	Priscila:	ain, tomara. Até agora eu tenho achado o R BEM mais intuitivo rs. Nunca programei em Python. Tomara que eu consiga me adaptar e ir bem no curso.
+02:02:08	Edesio Alcobaça:	Além disso, tem o fórum, onde você pode compartilhar sua dúvida com todos :)
+02:02:09	Tainá Aguilar:	to lá no grupo, qualquer coisa pode me chamar (acho que não tem outra Tainá lá kkk), eu posso dar umas dicas dessa transição R e python
+02:02:13	Daniela Brasil:	eu tbm pensei isso no inicio... mas a gente se acostuma *_*
+02:02:14	Francisco Martellini:	eu tenho dificuldade para entender o conceito de orientado a objeto, mesmo conhecendo Python, você recomenda algum material Tainá?
+02:02:37	Jefferson Martins:	https://docs.python.org/3/tutorial/index.html
+02:02:54	Felipe Almeida:	@Ronaldo, o DICT é bem mais completo do que uma simples STRUCT do C/C++, basicamente o DICT é um Json… que é um documento (objeto) que permite uma estrutura bem maior e mais completa.
+02:03:06	Jhonata Emerick Ramos:	@CeMEAI, tem como mandar um convite (para as nossas agendas) ou avisar a gente das monitorias? Tenho impressão que vou me perder.  Acho que manter a consistência é importante
+02:03:12	Priscila:	Obrigada pelo apoio, pessoal!!
+02:03:16	Tainá Aguilar:	Francisco, você que já programa mais (pelo que eu vi), um livro que eu gostei muito foi o Python Fluente do Luciano Ramalho, me ajudou bastante
+02:03:28	Tainá Aguilar:	Tem um outro curso que eu gostei bastante, deixa eu buscar aqui
+02:03:41	Otávio Torres:	Pessoal, quem quiser um material complementar, gratuito e bem completo para introdução e algumas coisas de nível médio, recomendo o curso gratuito da Data Science Academy (Python Fundamentos)https://www.datascienceacademy.com.br/
+02:04:22	Otávio Torres:	são 44h de curso e ainda tem certificado no final
+02:04:25	Pedro Rodrigues:	Python Fluente é um ótimo livro, mas ele não é tão básico.
+02:04:48	Tainá Aguilar:	Pois é, por isso so pro Francisco que eu recomendaria
+02:04:53	noelma:	Eu faço esse da Data Science Academy, é bem legal
+02:05:08	Tainá Aguilar:	Pras meninas, eu acostumaria mais com a linguagem antes de buscar esse livro
+02:05:16	Priscila:	gente, todo sabado vai ter aula ao vivo?
+02:05:18	CeMEAI:	@Jhonata, depois da aula do Nonato, vou mostrar como aparecem as monitorias para vocês, acho que fica bem organizado, mas podemos adicionar convites se ainda acharem necessário.
+02:05:18	Priscila:	Gostei assim
+02:05:27	Priscila:	poder tirar duvida na hora. Bem melhor
+02:05:50	Francisco Martellini:	Obrigado, Tainá! (eu programo, mas sou mais um MacGyver da programação, resolvo tudo com silver tape e as coisas que acho na internet :P)
+02:06:17	Tainá Aguilar:	Você descreveu 99% dos programadores kkkkkkk
+02:06:22	Priscila:	hahahhhahaha
+02:06:23	Francisco Martellini:	kkkkkkk
+02:06:25	Priscila:	vdd
+02:06:51	Tainá Aguilar:	Meu TCC foi 90% codigos que eu achei no medium + stackoverflow
+02:07:09	Tainá Aguilar:	O resto era comentário que eu adicionei
+02:07:18	Pedro Rodrigues:	🤣
+02:08:20	CeMEAI:	@Priscila, as aulas ao vivo serão eventuais, os plantões são o lugar para tirar as dúvidas. Usamos o conceito de sala de aula invertida, que dá mais flexibilidade e gasta menos tempo de vocês. Falarei sobre isso após a aula do Nonato.
+02:08:58	Priscila:	ok
+02:09:01	Priscila:	: )
+02:09:14	Mathias:	hashmap
+02:09:23	Priscila:	A gente depois vai ter acesso à gravação dessa aula de hoje, certo?
+02:09:57	Fer Marreta:	certíssima!
+02:10:01	CeMEAI:	Sim, vocês terão acesso a todas as gravações de todas as aulas e plantões ao vivo
+02:10:12	Felipe Almeida:	O chat fica salvo junto com a aula também?
+02:10:24	Tainá Aguilar:	Francisco, achei o curso aqui: https://www.pluralsight.com/paths/core-pythonTem umas partes bem explicativas para orientação a objetos
+02:10:25	Claudia Coleoni:	estava me perguntando isso tbm!
+02:10:41	Tainá Aguilar:	Dá pra exportar o chat
+02:10:43	CeMEAI:	@Felipe, sim, o chat fica salvo
+02:11:30	Francisco Martellini:	Obrigado, @Tainá!
+02:13:56	gerson.neto:	TAB vs Espaço The treta has been planted
+02:14:12	Renato Gonçalves:	Exatamente Gerson
+02:14:33	Renato Gonçalves:	Hahaha
+02:14:40	ariel:	kkk eu fico nervoso com as aspas
+02:17:40	Victor Marques:	eu só uso o apóstrofo rs
+02:18:01	Victor Marques:	a menos que seja necessário colocar aspas dentro de um print, ai não tem jeito
+02:18:02	Priscila:	será que a ideação vale ponto? Ou é obrigatória?
+02:18:06	nicolas.costa:	Pra quebrar as linhas no if muito grande, pode colocar dentro de parênteses também, ai nao precisa usar o \
+02:18:16	Tainá Aguilar:	também, mas so porque não precisar apertar o shift pra digitar kkk
+02:18:24	Priscila Costa:	gente, essa aula ta em qual pasta no site? baixei a aul 01 de introducao, mas nao está esses pontos
+02:18:33	Tainá Aguilar:	ideação ?
+02:18:47	Tainá Aguilar:	ainda vai ser colocada priscila
+02:18:50	Tainá Aguilar:	tão gravando
+02:19:00	Priscila:	Pri, essa materia é programacao, nao é a introdução. O nome é diferente
+02:19:21	Gabriel Penteado:	@nicolas.costa dai é só dar o enter e depois fechar o parênteses?
+02:19:23	Andrew Costa:	O python aceita os parênteses nos ifs?
+02:19:32	Victor Marques:	Priscila, o material tá no link Material base, na aba Python parte 1
+02:19:38	Priscila:	tai, identacao. Escrevi errado hahaha
+02:19:48	nicolas.costa:	@Gabriel, isso msm.
+02:19:59	Tainá Aguilar:	então seu codigo não funciona sem a identação kkkk
+02:20:03	Gabriel Penteado:	Obrigado!
+02:20:12	Tainá Aguilar:	é o equivalente ao { } no R 
+02:20:12	Priscila:	MENTIRAAAAAA tai
+02:20:24	Priscila:	Carai hahahah
+02:20:38	Priscila:	o povo do meu trabalho que usa SQL sem UM tab na vida ia pirar
+02:20:44	João Magalhães:	Andrew, aceita parentheses sim
+02:20:55	Andrew Costa:	Obrigado João!
+02:20:59	João Magalhães:	Inclusive, é indicado pra legibilidade em casos de expressões grandes
+02:21:02	Tainá Aguilar:	como não tem { } no python pra saber quando termina e começa cada bloco, a identação é o que fala o que são cada bloco
+02:21:39	Tainá Aguilar:	inclusive, erros comuns: você usar tab em uma linha e espaço na outra e vai aparecer erro de identação
+02:21:49	Tainá Aguilar:	ai você custa pra descobrir o que fez errado
+02:22:05	Tainá Aguilar:	porque quuando você olha pro Código, ele ta aparentemente perfeito
+02:22:13	Priscila:	meu deus rs
+02:22:20	Renato Gonçalves:	Isso Taina, mas as IDEs costumam corrigir esse problema
+02:22:29	Tainá Aguilar:	massss você não precisa de fechar chaves, tem essa vantagem
+02:22:32	Francisco Martellini:	o ideal sempre usar só espaço ou só Tab
+02:22:37	Priscila:	O Jupiter nao vai corrigir ne
+02:22:52	Tainá Aguilar:	o problema é quando você cola codigo da internet
+02:22:57	Francisco Martellini:	eu uso só espaço depois que eu custei para descobrir isso
+02:23:02	Tainá Aguilar:	já estive nessa situação kkkkkk
+02:23:48	Andrew Costa:	E é preciso definir a forma de identação no notebook? (Tab ou espaço) Ou fica só implícito pelo código?
+02:23:57	Tainá Aguilar:	o jupyter acho que não corrige, acho que ele não tem nem autocomplete (pelo menos o meu)
+02:24:01	Tainá Aguilar:	é implicito
+02:24:13	Tainá Aguilar:	inclusive você pode usar so um espaço como identação que funciona
+02:24:18	Andrew Costa:	Obrigado Tainá!
+02:24:18	Tainá Aguilar:	mas não faça isso kkkkkk
+02:24:27	Priscila:	Gente, esses else if aí.. esse espaço aí é UM tab?
+02:24:34	Tainá Aguilar:	tab ou 4 espaços 
+02:24:44	Priscila:	sou do bonde do tab mesmo hahaha
+02:24:45	Renato Gonçalves:	O Jupiter tem algum linter nativo?
+02:24:46	Francisco Martellini:	No jupyter tem uma configuração para identação automática dos blocs, se eu não me engano são 4 espaços
+02:24:47	Andrew Costa:	Ele falou que usa tab
+02:25:10	Igor Statonato:	#TeamTAB
+02:25:11	Pedro Rodrigues:	a maioria das IDEs tem soluções pra converter tab para espaço. Ai fica fácil de padronizar.
+02:25:11	Tainá Aguilar:	sou team tab também
+02:25:23	Tainá Aguilar:	economizar digitação
+02:25:28	Renato Gonçalves:	Acho que é isso mesmo Francisco, mas é possível alterar essa configuração
+02:26:25	Tainá Aguilar:	não entendi a duvida Pri
+02:27:04	Giuseppe Raphael Candiotti:	é um tab sim, Priscila
+02:27:08	Priscila:	Nem lembro mais qual era rs
+02:27:17	Giuseppe Raphael Candiotti:	no break, 2
+02:27:20	Priscila:	ahh era isso. Obrigada gente
+02:28:45	Francisco Martellini:	O jupyter tem uma coisa legal é que se a identação estiver errada, ele pinta o comando de vermelho, ele só fica verdinho quando esta na identação correta
+02:30:23	ariel:	nossa como que eu nunca notei isso 
+02:30:39	Mathias:	#TeamTAB
+02:31:04	Enzo Yamamura:	import pdb; pdb.set_trace()antes de onde que ta dando pau da pra ir vendo linha a linha tb
+02:31:49	Carlos Alves:	valeu @enzo
+02:32:04	Renato Gonçalves:	É isso mesmo Tainá o PASS
+02:32:10	Edesio Alcobaça:	Diferença entre continue, break e pass: https://pt.stackoverflow.com/questions/322/qual-a-diferen%C3%A7a-entre-break-pass-e-continue-em-python
+02:32:17	Felipe Almeida:	Pessoal do #TeamTAB, deem uma olhada nisso…
+02:32:18	Felipe Almeida:	https://stackoverflow.com/questions/5685406/inconsistent-use-of-tabs-and-spaces-in-indentation
+02:32:37	Tainá Aguilar:	felipe é team space kkkk
+02:32:51	Renato Gonçalves:	Eu sou teamTAB também, mas o PEP8 recomenda o uso de espaço
+02:32:56	Felipe Almeida:	É… já sofri com isso…
+02:32:58	Mathias:	https://www.youtube.com/watch?v=SsoOG6ZeyUI&t=1s
+02:33:12	Mathias:	Tem um video sobre spaces and tabs...
+02:33:13	Felipe Almeida:	PEP8 é o caminho a ser seguido…
+02:33:14	Edesio Alcobaça:	o pass é só para não escrever o bloco, o continue é usado pular para a próxima iteração dentro de um laço
+02:33:23	Tainá Aguilar:	eu sou teamtab, mas com a opção de converter pra espaço ativada :D
+02:33:26	Mathias:	pq quem assistiu a essa serie .. kk
+02:33:27	Priscila:	O que é pep8 mesmo?
+02:33:28	Enzo Yamamura:	nos editores tem extensões que colocam pep8 automaticamente, nem tem necessidade de ficar olhando o pep 8 automaticamente. autopep se não me engano
+02:33:31	ariel:	nossa Mathias eu tava pensando nisso
+02:33:41	Renato Gonçalves:	Isso mesmo Felipe, boas praticas de escrita em Python
+02:33:59	Victor Marques:	Pep8 são um conjunto de boas práticas para codar em Python
+02:34:08	Tainá Aguilar:	siim, eu sempre lembro dessa cena nessas discuç~poes
+02:34:43	Tainá Aguilar:	o python tem muitas convenções que são essas pep, cada uma tem um assunto
+02:35:09	Tainá Aguilar:	o pep8 é sobre boas práticas de codigo, mas tem muitas outras
+02:36:20	Fer Marreta:	Pessoal, terminando a aula do Nonato, eu e o Gustavo vamos conversar com vocês e tirar dúvidas sobre quase tudo, só não me perguntem de python porque eu sou de humanas hahaha
+02:36:42	Andrew Costa:	Ainda não decidi se sou team TAB ou space, mas tô vendo que no curso vou ter que migrar do TeamR hehe
+02:36:56	Danilo Bortuluzzo da Silva:	Pessoal, bom dia. Existe do/while em Python ou somente o While?
+02:37:29	Daniel Boeing:	usa só o while, até onde eu sei
+02:37:37	Moisés Rocha dos Santos:	Olá Danilo, não tem o do/while no Python
+02:37:45	Claudia Coleoni:	hahaha acho que vou para o lado do Team TAB... mas curti a dica da Tainá de ter a opção de converter pra espaço ativada
+02:37:55	Gabriel Penteado:	@Andrew O tab deixa o código mais uniforme. Imagina que você usa 2 espaços em um if e no if seguinte você usa 3, seu código se fica grande acaba virando uma cobrinha rsrs..
+02:37:56	Danilo Bortuluzzo da Silva:	Valeu, Moisés! 
+02:38:11	Tainá Aguilar:	é que o padrão é 4 espaços
+02:38:18	Tainá Aguilar:	é sempre tab ou 4 espaços
+02:38:23	Igor Statonato:	https://stackoverflow.blog/2017/06/15/developers-use-spaces-make-money-use-tabs/#:~:text=Coders%20who%20use%20spaces%20for,had%20a%20salary%20of%20%2443%2C750.
+02:38:25	Anderson Cunha:	bacana. Obrigado professor
+02:38:26	Carol Oliveira:	tchau pessoal! até próxima aula! :)
+02:38:28	Tainá Aguilar:	so que são muitos espaços pra digitar kkk
+02:38:35	Igor Statonato:	apesar de eu ser teamTAB
+02:38:44	Fernanda Calado:	Ótima aula. Professor muito didático. Obrigada!
+02:39:01	Gabriel Penteado:	Boa, não sabia desse padrão de 4 espaços.
+02:39:18	João Luiz Pacher:	Ótima aula, também foi muito útil para mim.
+02:39:20	Jefferson Martins:	teremos mais aulas ao vivo ?
+02:39:42	Edesio Alcobaça:	Sim, vai ter Jefferson
+02:39:54	Izabel Menossi:	Prof. obrigada ! Parabéns pela excelente aula!
+02:39:58	Marco Domingues:	boa aula inaugural ! muito sucesso para todos nessa jornada de conhecimento
+02:39:59	Claudia Coleoni:	muito show essa aula vivo, gostei muito também!!
+02:40:42	CeMEAI:	Daqui a pouco responderemos perguntas sobre o ambiente e estrutura.
+02:41:27	Fer Marreta:	vamos falar sobre isso com voc~es
+02:41:38	Juliana Nova:	Bom dia, consigo visualizar as notas que obtive em minhas avaliações?
+02:43:48	Enzo Yamamura:	( ͡° ͜ʖ ͡°) avaliações são com consulta?
+02:43:50	Izabel Menossi:	pessoal bom final de semana! tenho que sair
+02:44:19	Edesio Alcobaça:	até mais Izabel :)
+02:44:27	Ivan Garducci:	Criaram grupo no WhatsApp, certo?
+02:44:33	Christoph:	Obrigado pela aula, até a proxima.
+02:44:41	Everton Almeida:	Pessoal, não estou visualizando as aulas.
+02:44:42	Fer Marreta:	as notas das avaliações podem ser visualizadas após o período disponível para respostas e é com consulta sim hehe
+02:44:46	Everton Almeida:	alguém poderia me enviar o link?
+02:44:49	Francisco Martellini:	Sim, eu criei um topico no forum do MBA com os links do grupo do WhatsApp e do Linkedin
+02:44:56	Roberto Souza Junior:	bom da a todos!
+02:45:02	Ivan Garducci:	posso passar o numero para você incluir..
+02:45:11	Ivan Garducci:	tentei pelo QR e não foi
+02:45:43	Virginia Lani:	Obrigada professor pela aula. Até a próxima, pessoal. Bom fim de semana.
+02:45:46	Tainá Aguilar:	https://chat.whatsapp.com/LZBlh4ihyX26ZWDAopZdSy
+02:46:22	antonini:	Parabéns Professor, excelente aula!
+02:46:47	Ivan Garducci:	Obrigado Taina e Francisco
+02:48:40	Priscila:	Tab, se ele colocasse print(count+3) no lugar do print(count+1), ele print aria 1,2,…10 e no lugar do 11, apareceria 13
+02:49:42	Francisco Martellini:	Python é lindo!
+02:49:48	Valdir Luiz Dubiela:	testar com print(count) -- só.. isto esclerece.
+02:49:57	gleidson.santos:	O python consegue ler dados em planilhas Excel ?
+02:49:58	Erika Sales:	Excelente aula!! Obrigada!
+02:50:03	Miguel:	Obrigado pela aula.
+02:50:06	Valdir Luiz Dubiela:	boa... 
+02:50:09	Francisco Martellini:	Consegue sim, Gleidson!
+02:50:09	Victor Marques:	@gleidson, consegue sim!
+02:50:16	Gleice Garcia:	Obrigada pela aula, professor. Bom fim de semana.
+02:50:17	Daniela Brasil:	Obrigada pela Aula! Muito voa!!
+02:50:18	Priscila:	Gente, sao quantos exercicios?
+02:50:19	Juan Bazo:	Muito Obrigado!
+02:50:23	Silvio Luiz Santos de Jesus:	Tchau gente, bom dia!
+02:50:28	Moisés Rocha dos Santos:	Olá Gleidson ele lê planilhas, sim
+02:50:37	Priscila:	ahh é ele o cara do video!!!
+02:50:40	Hebert Ramos:	Excelente Aula!!! Obrigado Mestres!
+02:50:46	Edesio Alcobaça:	Consegue sim @Gleidson :)
+02:52:10	gleidson.santos:	Legal, vou pesquisar aqui como fazer.
+02:52:20	Francisco Martellini:	Depoimento para a página do curso: "você vai se esfolar, mas vai ser divertido" :P
+02:52:27	Ayrton Sergio:	Que video é esse com ele que ta todo mundo falando?
+02:52:57	amahoque:	Africa!
+02:53:46	Francisco Martellini:	@Gleidon, procura os comandos do pandas para isso!
+02:54:44	Jhonata Emerick Ramos:	Como não esquecer que temos o plantões? rs.. parece óbvio, mas não é.. nossa agenda é muito corrida
+02:55:18	Francisco Martellini:	Podemos fazer uma agenda pública do Google Agenda, eu tenho a minha posso fazer isso
+02:55:28	Priscila:	@ayrton, vou tentar achar o link aqui. pera
+02:55:30	Francisco Martellini:	assim vocês importam para a sua agenda
+02:56:13	Rodrigo Tchalski:	Pra mim colocar o plantão na agenda é pior... Vai ficar tocando alerta de segunda a quinta...
+02:56:20	Rodrigo Tchalski:	Daqui a pouco a gente já se acostuma com o horário.
+02:56:30	Joao Vicente Campos:	É possível enviar esse cronograma através do assistente de agenda de forma que possamos bloquer esses dias e horários?
+02:57:15	Joao Vicente Campos:	*bloquear
+02:57:23	Jhonata Emerick Ramos:	Se puder me mostrar na plataforma onde ver as datas e os plantões, agradeço.
+02:58:12	gleidson.santos:	@Francisco, Ótimo, ja achei aqui. Obrigado.
+02:58:45	Priscila:	Gente, onde mesmo tá o video desse cara? Nao to achando aqui no moodle
+02:59:16	Fer Marreta:	Priscila está na apresentação que mandamos por email
+03:00:01	Priscila:	É que recebi muitos emails e nao estou achando tb. Tem um link, sera?
+03:00:14	Gleice Garcia:	Onde consigo acessar as aulas e as avaliações?
+03:00:49	Fer Marreta:	https://vimeo.com/504890834/a18cb01a9e
+03:00:57	Enzo Yamamura:	https://cursosextensao.usp.br/course/view.php?id=2195
+03:01:25	Priscila:	Obrigada Fernanda
+03:01:30	Fer Marreta:	por nada!
+03:01:50	reg:	onde ficam as apresentações TCC do ano passado?
+03:02:03	reg:	eu já estou interessada em ler alguns trabalhos
+03:02:05	Priscila:	Qual o nome desse moço mesmo?
+03:02:12	Hebert Ramos:	como sei em qual grupo de discussão estão?
+03:02:20	Aderval Luna:	Tenho algumas dúvidas. Luna
+03:02:28	Priscila:	Tb gostaria de ler uns trabalhos. E queria MUITO ver os videos de apresentação tb. Bem mais rápido que ler rs
+03:02:33	Ivan Garducci:	os plantões serão pelo chat ou terá zoom
+03:02:35	Ivan Garducci:	?
+03:02:50	Fer Marreta:	as apresentações dos TCCs não estão disponíveis, mas os textos ficarão disponíveis para consulta na biblioteca em breve
+03:02:53	Luiz Felipe Dolabela:	Gustavo, @Priscila
+03:03:01	Hederson:	Por favor, como se dará a dinâmica das matérias, será uma por vez ou pode ter mais de uma ao mesmo tempo?
+03:03:25	Priscila:	Obrigada, gente. Melhor que chamar de moço de barba ahaha
+03:03:31	Edesio Alcobaça:	@Ivan, será via zoom :)
+03:03:32	Fer Marreta:	kkkkkkk
+03:03:39	Ivan Garducci:	show
+03:03:58	Rodrigo Tchalski:	@Henderson, agora estamos fazendo duas.
+03:04:11	Hederson:	A avaliação final será uma prova ou um trabalho?
+03:04:15	Edesio Alcobaça:	@Ivan, mas a todo tempo você pode mandar mensagens lá no forum para os tutores :)
+03:04:27	Martinho Hoffman:	O que foi a informação sobre 40%? perdi
+03:04:30	daniely:	Como funciona esta tarefa substitutiva? pode ser feita até quanto tempo depois da aula?
+03:04:33	Priscila:	Perdi tb
+03:04:41	Priscila:	onde ta escrito tudo isso?
+03:06:15	fued junior:	Como será o uso do Moodle, já que as respostas devem ser fornecidas no Moodle
+03:06:58	fued junior:	já sendo respondido
+03:07:33	reg:	Fer Marreta, por favor, pode nos enviar um email para avisar que os textos dos TCCs estão disponíveis? E um tutorial de como consultar na biblioteca (eu não sei...)
+03:07:46	Rodrigo Tchalski:	@Daniely, está tudo no moodle, inclusive a tarefa substitutiva. Quando você entrar na aula da semana 1, está tudo lá.
+03:07:47	Priscila:	Boa ideia reg
+03:07:54	Ronaldo Cohin - Jade Autism:	Obrigado pessoal. Ate mais!
+03:08:04	Priscila:	Valeu Ronaldo
+03:08:33	Claudia Coleoni:	também estou no exterior...
+03:08:37	Claudia Coleoni:	boa pergunta
+03:08:39	daniely:	@Rodrigo eu vi que está lá, mas gostaria de saber quanto tempo posso fazer. Posso fazer até acabar as 8 semanas do módulo? Ou preciso fazer na semana seguinte 
+03:09:01	Rodrigo Tchalski:	Tem que fazer até o sábado seguinte.
+03:09:19	Rodrigo Tchalski:	A semana 1 pelo que entendi fecha no final do sábado que vem.
+03:09:25	Rafael Gomes:	pode continuar a explicação
+03:09:26	Rodrigo Tchalski:	E assim por diante.
+03:09:49	Rafael Gomes:	muitas respostas serão respondidas daquela explicação sobre o formato que ela estava explicando
+03:10:06	Rafael Gomes:	perguntas serão respondidas*
+03:10:08	daniely:	sim, mas a minha dpuvida é sobre as tarefas substitutivas 
+03:10:11	Tainá Aguilar:	A tarefa substituitiva é até o final das oito semanas pelo que eu entendi, 
+03:10:33	Rodrigo Tchalski:	Acho que é isso mesmo.
+03:10:51	Tainá Aguilar:	até porque o objetivo é exatamente substituir uma tarefa que você perdeu a data
+03:10:57	Francisco Martellini:	Naquele video de apresentação do MBA do Louzada ele fala sobre as tarefas substitutivas
+03:11:02	nicolas.costa:	Sobre a avaliacao final, eu posso responder as perguntas ao logno da semana, e quando tiver concluído submeter?
+03:11:03	Jefferson Martins:	seremos avisados no email da usp ou no email pessoal ? usaremos muito o email da usp ?
+03:11:10	Fer Marreta:	é isso, fica disponível para substituir até o final da disciplina
+03:11:34	Francisco Martellini:	@Jefferson você pode redirecionar as mensagens do e-mail da USP para o seu e-mail pessoal
+03:11:39	Francisco Martellini:	assim olha um e-mail só
+03:11:52	Fer Marreta:	já comento sobre o email USP
+03:11:54	Priscila:	Serão sempre duas disciplinas por semana?
+03:12:14	Fer Marreta:	isso, sempre duas avaliações por semana
+03:13:25	Roberto Souza Junior:	Bom Final de Semana a todos
+03:13:58	Claudia Coleoni:	Pessoal, vou precisar sair. Ótima interação!! Muito obrigada a todos e ótimo final de semana!
+03:15:25	fabricio.berti:	Pessoal, precisarei sair, obrigado a todos e ótimo final de semana!!!
+03:15:40	Edesio Alcobaça:	até mais :)
+03:15:41	CeMEAI:	@Daniely, as tarefas substitutivas ficam abertas até o fechamento da disciplina
+03:16:41	MARCOS ALCURE:	São duas avaliações por semana ?
+03:17:03	Tainá Aguilar:	isso, uma de cada matéria
+03:17:15	Alexandre Scarambone:	essa é minha pergunta tb . 
+03:17:17	Alexandre Scarambone:	boa
+03:18:40	Priscila:	nossa, eu ia amar o calendario
+03:18:44	César:	Acho que seria uma boa alternativa fazermos a avaliação em outras intuições federais espalhadas pelo Brasil. Assim como foi na seleção.
+03:19:31	César:	E, no caso de quem está fora do Brasil, em uma instuição do País em que está.
+03:19:34	Priscila:	nao aparece assim nao
+03:21:13	Francisco Martellini:	Não dá para vocês colocarem isso no calendario do Moodle? Ele permite importar para o Google Calendar
+03:21:50	Ivan Garducci:	As avaliações da outra matéria já estão liberadas
+03:21:53	Ivan Garducci:	?
+03:22:14	Aderval Luna:	Gostaria de perguntar e comentar. Aderval Luna
+03:22:15	Rodrigo Tchalski:	Só abre a semanal das duas matérias que estão abertas agora.
+03:22:41	Gabriel Penteado:	Era essa a minha duvida, são duas matérias por semana.
+03:22:50	Lilian Fontes:	como funciona a orientação aos projetos? qdo saberemos quem vai nos orientar?
+03:23:08	Andrew Costa:	ótima duvida Lilian
+03:23:46	Andhros Guimarães Silva:	Google Calendar
+03:23:54	Francisco Martellini:	Não dá para fazer as duas coisas? Liberar a planilha e com o tempo fazer o calendar?
+03:24:14	João Luiz Pacher:	@Fe Marreta, lembrar de comentar sobre a importância de ter email usp
+03:24:20	Werner Denzin:	Para o próximo sábado devemos entregar a avaliação apenas para a disciplina de hoje, correto? Ou o conteúdo da 2a disciplina será disponibilizado ainda para assistirmos off-line e entregarmos sua avaliação tbm?
+03:24:34	M34CDUSP:	O Francisco deu uma ideia legal ali em cima. alimentar o proprio calendario do moodle e ele vai permitir importar isso no google calendar para quem quiser.
+03:25:02	Priscila:	Quais são os recursos que a gente tem com o email exatamente
+03:25:03	Priscila:	?
+03:25:09	Rodrigo Tchalski:	@Weber, já está disponível
+03:25:25	Alexandre Scarambone:	Wener, pelo que entendi tem que fazer a avaliação semanal tanto da matéria de introdução a ciência de dados como programação para ciência de dados.
+03:25:26	Gabriel Penteado:	Tem todas as datas (aulas, monitorias, etc) no google suite pra gente poder importar o calendário no celular?
+03:25:40	Alexandre Scarambone:	inclusive tem o prazo quando vc clica na avaliação semanal ;)
+03:26:31	Francisco Martellini:	Quem já perguntou precisa abaixar a mão, o Zoom não faz isso automático
+03:26:52	Enzo Yamamura:	Gente muito obrigado, não tenho mais dúvidas por hora, bom fim de semana a todos e ótima semana! Abs
+03:26:59	gleidson.santos:	Até logo pessoal, bom final de semana a todos e bons estudos.
+03:27:41	Erika Sales:	Vou precisar sair tbm! Bom final de semana pessoal!
+03:28:56	Martinho Hoffman:	“Vou fazer nada não” hahaha
+03:29:08	Priscila:	hahaha
+03:29:20	Silvio Oliver:	Como entro em contato com professor durante o curso?
+03:29:38	luana:	Sobre o TCC, já temos que ter o tema e orientador definido?
+03:29:48	Altieres Schincariol:	Muito obrigado pelas informações. Uma ótima semana a todos
+03:30:06	Felipe Almeida:	@Fagner, não só o Gmail, mas qualquer provedor faz isso… Utilize o plugin “FlowCrypt”
+03:30:17	Priscila:	Esse plantão vai ficar disponível?
+03:31:04	Priscila:	Achei confuso esse excel
+03:31:15	Priscila:	seria melhor como google calendar
+03:31:19	Jefferson Martins:	Esse calendário ajuda sim
+03:31:22	Fer Marreta:	http://www.leginf.usp.br/?resolucao=resolucao-no-4871-de-22-de-outubro-de-2001
+03:31:31	Andhros Guimarães Silva:	Poderiam ser Links no Google Calendar
+03:31:34	Moisés Rocha dos Santos:	@Priscila, os plantões ficam disponíveis em gravação
+03:31:55	Priscila:	Esse de hoje também?
+03:32:01	Moisés Rocha dos Santos:	Sim
+03:32:05	Priscila:	show
+03:32:08	Priscila:	obrigada
+03:32:22	fued junior:	abraço a todas (os)
+03:32:23	Alexandre Farah:	POde repetir o endereço da biblioteca?
+03:32:27	Priscila:	@fernada, vc mandou por email tb?
+03:32:32	Priscila:	Nao peguei aqui no chat
+03:32:45	Jefferson Martins:	qual o link da biblioteca ?
+03:32:51	Felipe Almeida:	@Alexandre…. https://www.icmc.usp.br/institucional/estrutura-administrativa/biblioteca
+03:32:52	Priscila:	se pudesse ter um documento talvez ou lá no moodle de maneira simples
+03:32:57	Fer Marreta:	podemos colocar lá nas informações gerais
+03:33:12	Alexandre Farah:	@Felipe, valeu!
+03:33:13	Priscila:	Seria otimo
+03:33:21	Priscila:	pq aqui no chat as coisas se perdem rs
+03:33:32	Fer Marreta:	vou colocar esses conteúdos todos lá no tópico de informações gerais, acho que fica mais fácil para acessar depois
+03:34:01	daniely:	@fFer obrigada 
+03:34:18	Priscila:	tem algum video ensinando de fato a usar a biblioteca?
+03:34:53	Fer Marreta:	vídeo não tem não, pelo menos não que eu sabia, mas podemos ver
+03:35:03	Priscila:	Seria ótimo!!
+03:35:27	Priscila:	Fernanda, fala de como vai ser a orientação por favor
+03:35:30	Priscila:	Como escolher etc
+03:35:48	Francisco Martellini:	Sim queria muito saber da orientação...
+03:35:49	Andrew Costa:	Quimiometria professor Aderval?
+03:35:58	Francisco Martellini:	Como instalar a VPN: https://atendimentosti.usp.br/otrs/public.pl?Action=PublicFAQExplorer;CategoryID=12
+03:36:16	Jefferson Martins:	vcs tem alguma dica para quem não tem a menor ideia do que fazer no TCC ?
+03:36:21	Priscila:	tem que ter vpn pra acessar a biblioteca?
+03:37:15	Edesio Alcobaça:	@Aderval, vamos ter uma disciplina só sobre deeplearning no curso \o/
+03:37:18	Fer Marreta:	Jefferson vai vendo com o que você se identifica e gosta. Pensa num problema relacionado ao seu trabalho ou a sua realidade que você tenha interesse em resolver
+03:37:39	Francisco Martellini:	As bibliotecas não, mas a USP assina algumas bases e disponibiliza alguns materiais digitais pela biblioteca que você só acessa se tiver a VPN
+03:37:41	Priscila:	Então é o orientador que escolhe??
+03:38:03	Fer Marreta:	para acessar o conteúdo das biblioteca precisa de VPN sim porque a maioria das bases de dados são pagas
+03:38:17	Andrew Costa:	Aparentemente sim Priscila
+03:38:22	Diego Mello:	@Gustavo e @Fer o que ficou definido sobre o calendario completo?1- Voces irão limentar o moodle com todas as datas2- Voces irao montar um google calendar para importarmos para nossa agenda?3- Voces irão compartilhar tudo num documento em Excell/googlesheets?Eu particularmente prefiro o 1 ou 2
+03:38:24	Francisco Martellini:	quis dizer a biblioteca física, comi palavras :P
+03:38:31	Fer Marreta:	vamos fazer matches entre o interesse de vocês e o conhecimento dos orientadores 
+03:38:49	Priscila:	mas eu nao posso escolher?
+03:38:58	Priscila:	Vai ter apresentação de cada um?
+03:39:33	Fer Marreta:	com relação a planilha e calendários vamos disponibilizar as duas coisas
+03:40:31	Gabriel Penteado:	Nossa eu não tenho a menor ideia do que fazer para o TCC. Devo ficar preocupado? rsrs
+03:40:43	Andrew Costa:	Com o que você trabalha Gabriel?
+03:41:05	Fer Marreta:	não precisa se preocupar, você vai se identificar com algo ao longo do curso
+03:41:34	Gabriel Penteado:	Sou desenvolvedor de ERP, minha maior motivação para o curso foi a implementação de um data lake no software e também pois é uma área que eu acho incrível.
+03:41:47	Priscila:	nossa, que legal gabriel!!
+03:41:52	Gabriel Penteado:	Ah sim, muito obrigado @Fer
+03:42:35	Gabriel Penteado:	@Priscila, obrigado. :)
+03:43:34	Diego Mello:	Ok, Obrigado @Fer
+03:44:10	Brenda Nascimento:	Pessoal, estou de saída. Adorei a aula e agradeço o apoio Fer e Gustavo. Ótimo final de semana a todos!
+03:44:57	Gabriel Penteado:	É possível mostrar um pouco do ambiente Moodle? Eu não to mais achando o fórum. Isso que eu postei lá na introdução kkk
+03:45:38	Miguel:	Muito obrigado, ótima semana
+03:46:54	Rodrigo Tchalski:	@Gabriel, acho que cada matéria tem um fórum. Se eu estiver errado, alguém me corrige aí.
+03:47:20	Rodrigo Tchalski:	O Fórum geral está na sala MBA em Ciência de Dados 2021
+03:47:34	Gabriel Penteado:	Achei aqui, muito obrigado!
+03:48:00	Francisco Martellini:	Kkkkkkkkk
+03:48:02	Andrew Costa:	hahahahaha
+03:48:02	Gabriel Penteado:	kkkk
+03:48:13	Francisco Martellini:	eu vim da unicamp, mas lá também o Moodle é o demo
+03:48:22	amahoque:	Pessoal...este zoom estara disponivel?este zoom estara disponivel?Tenho mesmo que sair.
+03:48:31	Francisco Martellini:	Team Google Classroom
+03:48:41	Andrew Costa:	Eu também Francisco, mas pelo que vi ele deu um bom upgrade
+03:49:02	Andrew Costa:	Na minha época, só por Deus rs
+03:49:15	Francisco Martellini:	@amahoque eles vão disponbilizar esse video depois no moodle
+03:50:50	Jefferson Martins:	a monitoria poderá ser usada para dúvidas sobre o TCC ?
+03:51:29	Fer Marreta:	pode sim Jefferson, teremos monitorias específicas nas disciplinas de metodologia
+03:51:46	Francisco Martellini:	o meu também
+03:53:04	Fer Marreta:	e depois você terá reuniões com os orientadores também
+03:53:50	Rafael Gomes:	essa é a tela de login que sempre dá erro pra mim rs
+03:54:00	Gabriel Penteado:	eu descobri que tem que acessar via senha usp
+03:54:08	Gabriel Penteado:	foi o único jeito que funcionou pra mim
+03:54:20	Francisco Martellini:	Moodle sendo Moodle :P
+03:54:40	Fer Marreta:	moodle sendo moodle kkkkkk exato!
+03:55:52	Francisco Martellini:	Tyudo bem!
+03:56:07	Martinho Hoffman:	A nota da avaliação só fica disponível após a conclusão da disciplina?
+03:56:35	Francisco Martellini:	Preciso de uma cadeira para virar entre o note e a tela :P
+03:56:41	Fer Marreta:	isso Martinho
+03:57:29	Martinho Hoffman:	Obrigado Fer!
+03:58:21	Gabriel Penteado:	Tem no fórum a opção de colar código? Eu figo, sem desformara tudo, mantendo a tabulação, etc
+03:58:30	Fer Marreta:	as notas das avaliações semanais aparecem também, mas a nota final da disciplina, só depois da avaliação final
+03:59:51	João Luiz Pacher:	Estou de saída. Bom final de semana a todos.
+03:59:52	Gabriel Penteado:	É que tem fórum que deixa colar código tipo o slack overflow hahaah
+03:59:59	Gabriel Penteado:	Obrigado
+04:01:16	Claudio:	Gustavo e Fernanda, o modulo apresentado agora em tela tem avaiação?
+04:01:29	Claudio:	avaliação
+04:01:58	Fer Marreta:	geralmente não tem avaliação
+04:02:03	Francisco Martellini:	Isso!
+04:02:14	Claudio:	Obrigado!
+04:03:05	marcelo.aloysio@gmail.com:	Fernanda, como faço para criar minha conta de e-mail usp?
+04:03:07	Claudio:	Gustavo e Fernanda, agradeço as informações prestadas e desejo um excelente curso a todos os colegas. Infelizmente, vou te que ausentar-me neste momento.
+04:03:14	Francisco Martellini:	Obrigado!
+04:03:34	Fer Marreta:	Marcelo dá uma olhada lá nas informações gerais que tem o passo a passo do email
+04:03:41	Francisco Martellini:	Isso!
+04:03:49	Edesio Pinto de Souza Alcobaca Neto:	Oi pessoal, pelo que vi no forum não da para mandar código formatado, como no github por exemplo. É melhor mandar um jupyter ou arquivo de imagem se vor via forum.
+04:07:02	Gabriel Penteado:	A avaliação substitutiva sempre substitui a nota da avaliação? No caso de eu ir mal e tentar fazer a substitutiva, se eu for pior na substitutiva, troca a nota mesmo assim ou vale a maior?
+04:07:47	Fer Marreta:	Gabriel, é possível substituir uma avaliação ruim pela substitutiva sim
+04:08:18	Gabriel Penteado:	Na infelicidade de eu ir pior na s
+04:08:21	Fer Marreta:	deixa só eu confirmar com o Gustavo se vale a mair
+04:08:24	Fer Marreta:	maior
+04:08:30	Gabriel Penteado:	ah ta bom
+04:09:22	Gabriel Penteado:	obrigado!!
+04:09:34	Gabriel Penteado:	São bonzinhos mesmo hahaha, que ótimo
+04:09:34	Jefferson Martins:	que bom a sub é do bem !
+04:09:43	Gabriel Penteado:	exato
+04:09:52	Fer Marreta:	isso, a sub é do bem hahaha
+04:10:02	Jane Flores:	pessoal bom dia.. a recomendação é usar o Anaconda ou o Google Collab?
+04:10:09	Francisco Martellini:	Vocês podem criar um filtro no gmail para direcionar para uma pasta quando vier da forum e não encher o Inbox
+04:10:18	Jane Flores:	esse ponto não foi muito explorado na aula...
+04:10:25	Fer Marreta:	Jane, vai depender do professor e da base de dados
+04:10:46	Jane Flores:	tem orientações aqui? ou busco na internet?
+04:10:59	Jane Flores:	caso queira usar o collab..
+04:11:16	Fer Marreta:	sei que tem professor que usa base de dados que roda em um e não no outro, então é importante sempre confirmar com o professor da disciplina
+04:11:41	Fer Marreta:	sobre esse assunto recomendo você falar com a equipe de apoio
+04:11:54	Fer Marreta:	nos plantões
+04:12:33	Mayra Romero:	nós temos acesso as respostas depois de enviar a avaliação?
+04:13:42	Edesio Pinto de Souza Alcobaca Neto:	@Jane o professor orientou usar o anaconda + jupyter, por ser mais simples. Mas você tem liberdade de usar o que for mais confortável para você :)
+04:14:00	marcelo.aloysio@gmail.com:	Consegui criar a conta de e-mail da usp, Fernanda. Obrigado
+04:14:14	Fer Marreta:	que ótimo Marcelo!
+04:15:19	marcelo.aloysio@gmail.com:	Fernanda, estou tentando acessar o endereço http://email.usp.br mas a página não é encontrada. Pode me indicar a forma de acessar a conta?
+04:15:43	Fer Marreta:	ahhh demora um tempinho para habilitar 
+04:16:01	Fer Marreta:	mas a página é essa mesma email.usp.br
+04:16:09	marcelo.aloysio@gmail.com:	mas o endereço não deveria estar acessível?
+04:16:25	Fer Marreta:	deveria sim, a menos que tenha caído :-(
+04:16:56	Gabriel Penteado:	se você entrar em webmail.usp.br aparece um link pra entrar no email da usp tbm
+04:17:43	marcelo.aloysio@gmail.com:	consegui assim. Obrigado novamente
+04:18:37	marcelo.aloysio@gmail.com:	o G Suite está dando erro mesmo. Mais tarde tento
+04:18:46	marcelo.aloysio@gmail.com:	bom fim de semana
+04:19:14	Fer Marreta:	geralmente os nossos sistemas atualizam em 24h, então às vezes demora um tempinho mesmo
+04:19:57	levsi:	Obrigado Gustavo e Fernanda!Bom fim de semana!
+04:20:07	Fer Marreta:	por nada!
+04:20:12	Fer Marreta:	ótimo findi
+04:23:23	Ayrton Sergio:	Obrigado pelas explicações!! Bom fim de semana amigos!!
+04:23:44	Francisco Martellini:	Sendo bolsista, se eu arrumar um emprego no meio do MBA eu perco a bolsa?
+04:23:52	Fer Marreta:	não perde não
+04:24:03	Francisco Martellini:	obrigado!
+04:24:46	Gabriel Penteado:	O prazo para a entrega da tarefa é na quinta feira? Ou até 23:59 do sábado antes de abrir a próxima?
+04:25:13	Francisco Martellini:	Melhor equipe de apoio!
+04:25:18	Andhros Guimarães Silva:	até 23:59 de sexta
+04:25:37	Gabriel Penteado:	Obrigado!
+04:25:42	Rodrigo Tchalski:	Acho que é sábado 23:59h...
+04:25:51	Rodrigo Tchalski:	Ajuda nós aí Fer e Gustavo...
+04:25:54	Gabriel Penteado:	isso
+04:27:38	Danilo Bortuluzzo da Silva:	Obrigado pela disponibilidade, Gustavo e Fer! Vamos JUNTOS!
+04:29:16	João Magalhães:	Obrigado pelo tempo de vcs
+04:29:30	daniely:	Muito obrigada pelas informações
+04:29:41	Francisco Martellini:	Obrigado pelo apoio desde a inscrição!
+04:29:50	Durães da Costa Marcelo:	Obrigado, pela atenção!
+04:29:57	Hebert Ramos:	Obrigado
+04:30:01	Jefferson Martins:	muito obrigado pelas explicações
+04:30:02	Fer Marreta:	obrigada gente!
+04:30:05	Jane Flores:	obrigada pessoal! vou saindo aqui, bom sábado! abs!
+04:30:09	Jefferson Martins:	abs e bom fim de semana
+04:30:21	Renata G:	Obrigada pelos esclarecimentos!
+04:30:25	Monique Rocha:	Muito obrigada! Bom final de semana =)
+04:30:46	Danilo Bortuluzzo da Silva:	Vou saindo também! Bom final de semana, pessoal! #AvantePalestra
+04:30:53	Patricia:	obrigada pelas informações! Bom sábado a todos.
+04:31:10	Francisco Martellini:	Gente eu preciso sair porque meu cachorro não come se eu fico com o headset! Bom final de semana e obrigado! :)
+04:31:13	Fer Marreta:	pessoal focado no futebol já hahaha
+04:31:25	Fer Marreta:	quem precisar sair pode ir galera
+04:31:31	Durães da Costa Marcelo:	rsrsrs, sim...
+04:33:18	João Magalhães:	#Avante haha
+04:36:24	Thiago Bortolini:	Pessoal, preciso ir nessa! Foi um ótimo começo de curso, e estou bastante animado!Um ótimo fds a todos :)
+04:41:28	Luis Ramalho:	Tá ótimo, sem dúvidas pelo momento
+04:41:40	Gabriel Penteado:	Muito obrigado! Ótimo fim de semana para todos!
+04:41:41	Rafael Gomes:	Obrigado pelo esclarecimento das dúvidas
+04:41:42	Luis Ramalho:	Obrigado pessoal!
+04:42:03	Cecilia:	Obrigada, boa tarde a todos.
+04:43:23	erikmontagna:	Quem não morre não vê Deus… se não se jogar, tudo fica no marasmo!!! É pra ir pra cima!!!
+04:47:50	erikmontagna:	Vcs estão sendo sensacionais!!! Será divertido MESMO
+04:47:58	Edesio Alcobaça:	:)
+04:48:03	Luis Ramalho:	Obrigado novamente, bom fds para vocês!
+04:48:08	Renata G:	tudo ótimo mesmo!
+04:48:26	xTopA reg:	Obrigado. Abraço à todos
+04:48:27	erikmontagna:	Até mais pessoal… valeu
